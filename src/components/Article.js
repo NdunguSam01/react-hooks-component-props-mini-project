@@ -1,6 +1,5 @@
 const Article = ({date="January 1, 1970", title, preview}) => 
 {
-    console.log(preview)
     return (  
         <article>
             <h3>{title}</h3>
